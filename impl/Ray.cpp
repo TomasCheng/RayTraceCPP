@@ -6,5 +6,5 @@ Ray::~Ray()
 
 glm::vec3 Ray::GetEndPoint(float distance)
 {
-    return position + direction * distance;
+    return origin + direction * distance;
 }
